@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,400;1,500&family=Roboto:wght@100;300;400;500;700&family=Text+Me+One&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jumbotron{
+    background: url(../img/jumbotron.jpg) no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    box-shadow: 0 5px 30px #525252;
+}
+
+.cards{
+    margin-top: 70px;
+}
+
+.cards > div, .cards-btm > div{
+    width: 340px;
+}
+
+.cards-btm > div{
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+}
+
+.cards-btm > div small{
+    border-top: 1px solid #c1c1c1;
+}
+
+.bot-img >div {
+    margin: 50px 60px;
+}
+
+.contact-form{
+    margin: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #c1c1c1;
+}
+
+.my-bio .social a{
+    font-size: 30px;
+}
+
+.my-bio .social a .bx.bxl-instagram-alt{
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: 300ms ease;
+}
+
+.my-bio .social a .bx.bxl-instagram-alt:hover{
+    transform: scale(1.3);
+    transition: 300ms ease;
+}
+
+.my-bio .social a .bx.bxl-whatsapp-square{
+    color: #25D366;
+    transition: 300ms ease;
+}
+
+.my-bio .social a .bx.bxl-whatsapp-square:hover{
+    transform: scale(1.3);
+    transition: 300ms ease;
+}
+
+.my-bio .social a .bx.bxs-envelope{
+    color: #000000;
+    transition: 300ms ease;
+}
+
+.my-bio .social a .bx.bxs-envelope:hover{
+    transform: scale(1.3);
+    transition: 300ms ease;
+}
+
+
+
+@media (max-width: 767px){
+    .cards, .cards-btm, .bot-img{
+        flex-wrap: wrap;
+    }
+
+    .contact-form > form{
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 600px){
+    .video{
+        padding: 0 !important;
+    }
+
+    .jumbotron{
+        padding: 10px !important;
+    }
+}
